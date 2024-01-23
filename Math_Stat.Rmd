@@ -1,8 +1,11 @@
 ---
-title: 'Math.statistcis '
+title: 'Math statistcis '
 date: "`r Sys.Date()`"
 output:
   pdf_document:
+    toc: true
+    toc_depth: 1
+    keep_md: true
     latex_engine: xelatex
     includes:
       in_header: header.tex
@@ -168,7 +171,7 @@ data.frame(`McNemar_chi_squared`=mctest$statistic, `p-value`=mctest$p.value, row
 
 # Case D
 
-## Data (первые 6 значений)
+### Data (первые 6 значений)
 ```{r, echo=F}
 mice = read.csv('data/MouseEmpathy.csv', stringsAsFactors = T, 
                 col.names = c('condition', "stretch", "treatment"))
