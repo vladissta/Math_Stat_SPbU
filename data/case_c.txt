@@ -1,0 +1,13 @@
+Patient number,first meeting,One month later
+1,Non-compliant,Compliant
+2,Non-compliant,Compliant
+3,Compliant,Compliant
+4,Non-compliant,Non-compliant
+5,Non-compliant,Compliant
+6,Non-compliant,Non-compliant
+7,Compliant,Non-compliant
+8,Non-compliant,Compliant
+9,Non-compliant,Compliant
+10,Compliant,Compliant
+11,Non-compliant,Non-compliant
+12,Non-compliant,Compliant
